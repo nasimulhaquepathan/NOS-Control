@@ -10,7 +10,7 @@ export default defineConfig({
       __VITE_REACT_APP_BASE_URL__: `"${process.env.VITE_REACT_APP_BASE_URL}"`, // wrapping in "" since it's a string
     },
     build: {
-      chunkSizeWarningLimit: 100000000
-  },
+      chunkSizeWarningLimit: 1600,
+    },
   plugins: [react()],
 })
