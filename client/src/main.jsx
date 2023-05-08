@@ -6,7 +6,8 @@ import globalReducer from './state';
 import App from './App.jsx';
 import './index.css';
 import { setupListeners } from '@reduxjs/toolkit/dist/query';
-import {api } from './state/api'
+import { api } from './state/api';
+
 
 const store = configureStore({
   reducer: {
@@ -16,7 +17,7 @@ const store = configureStore({
   middleware: (getDefault) => getDefault().concat(api.middleware)
 })
 
-setupListeners(store.dispatch)
+setupListeners(store.dispatch);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

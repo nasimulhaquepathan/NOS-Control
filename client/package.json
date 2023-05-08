@@ -20,6 +20,8 @@
     "@nivo/line": "^0.82.1",
     "@nivo/pie": "^0.81.0",
     "@reduxjs/toolkit": "^1.9.5",
+    "dot-env": "^0.0.1",
+    "dotenv": "^16.0.3",
     "react": "^18.2.0",
     "react-datepicker": "^4.11.0",
     "react-dom": "^18.2.0",
